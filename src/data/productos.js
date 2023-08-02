@@ -167,13 +167,56 @@ export const PRODUCTOS = [
         contenido: '20 kg',
         imagen: 'BeriscanProCachorro.webp'
     },
-    // {
-    //     id:24,
-    //     nombre: 'Nucan - Adulto',
-    //     descripcion: '',
-    //     contenido: '',
-    //     imagen: 'NucanAdulto.webp'
-    // },
+    
+    {
+        id:24,
+        nombre: 'Nucan - Adulto',
+        descripcion: '',
+        contenido: '',
+        imagen: 'NucanAdulto.webp'
+    },
+    {
+        id:25,
+        nombre: 'Nucan - Cachorro',
+        descripcion: '',
+        contenido: '',
+        imagen: 'NucanCachorro.webp'
+    },
+    {
+        id:26,
+        nombre: 'Nucat - Alimento para Gatos',
+        descripcion: '',
+        contenido: '',
+        imagen: 'Nucat.webp'
+    },
+    {
+        id:36,
+        nombre: 'NUPEC - Adulto',
+        descripcion: '',
+        contenido: '',
+        imagen: 'NupecAdulto.jpg'
+    },
+    {
+        id:37,
+        nombre: 'NUPEC - Cachorro',
+        descripcion: '',
+        contenido: '',
+        imagen: 'NupecCachorro.jpg'
+    },
+    {
+        id:38,
+        nombre: 'NUPEC Adulto - Raza Pequeña',
+        descripcion: '',
+        contenido: '',
+        imagen: 'NupecAdultoRazaPequena.jpg'
+    },
+    {
+        id:39,
+        nombre: 'NUPEC Cachorro - Raza Pequeña',
+        descripcion: '',
+        contenido: '',
+        imagen: 'NupecCachorroRazaPequena.jpg'
+    },
     // {
     //     id:25,
     //     nombre: 'Nucan - Cachorro',
