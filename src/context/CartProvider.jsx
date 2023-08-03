@@ -22,22 +22,22 @@ const CartProvider = ({children}) => {
     },[carrito])
   
     //funcion - funciones globales, states, etc...
-    const agregarCarrito = guitarra => {
-      // Comprobar si la guitarra ya esta en el carrito...
-      if(carrito.some( guitarraState =>  guitarraState.id === guitarra.id )) {
+    const agregarCarrito = producto => {
+      // Comprobar si la producto ya esta en el carrito...
+      if(carrito.some( productoState =>  productoState.id === producto.id )) {
           // Iterar para actualizar la cantidad
-          const carritoActualizado = carrito.map( guitarraState => {
-              if( guitarraState.id === guitarra.id ) {
+          const carritoActualizado = carrito.map( productoState => {
+              if( productoState.id === producto.id ) {
                   console.log('')
               } 
-              return guitarraState;
+              return productoState;
           })
           // Se asigna al array
           setCarrito([...carritoActualizado]);
           localStorage.setItem('carrito', JSON.stringify( carrito ));
       } else {
           // En caso de que el articulo no exista, es nuevo y se agrega
-          setCarrito([...carrito, {...guitarra, cantidad:1}]);
+          setCarrito([...carrito, {...producto, cantidad:1}]);
           localStorage.setItem('carrito', JSON.stringify( carrito ));
       }
     }
@@ -48,12 +48,12 @@ const CartProvider = ({children}) => {
     window.localStorage.setItem('carrito', JSON.stringify( carrito ));
     }
 
-    const actualizarCantidad = guitarra => {
-    const carritoActualizado = carrito.map( guitarraState => {
-        if(guitarraState.id === guitarra.id ) {
-        guitarraState.cantidad = parseInt( guitarra.cantidad )
+    const actualizarCantidad = producto => {
+    const carritoActualizado = carrito.map( productoState => {
+        if(productoState.id === producto.id ) {
+        productoState.cantidad = parseInt( producto.cantidad )
         } 
-        return guitarraState
+        return productoState
     })
     setCarrito(carritoActualizado)
     window.localStorage.setItem('carrito', JSON.stringify( carrito ));

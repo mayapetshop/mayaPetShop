@@ -172,49 +172,49 @@ export const PRODUCTOS = [
         id:24,
         nombre: 'Nucan - Adulto',
         descripcion: '',
-        contenido: '',
+        contenido: '25 kg',
         imagen: 'NucanAdulto.webp'
     },
-    {
-        id:25,
-        nombre: 'Nucan - Cachorro',
-        descripcion: '',
-        contenido: '',
-        imagen: 'NucanCachorro.webp'
-    },
-    {
-        id:26,
-        nombre: 'Nucat - Alimento para Gatos',
-        descripcion: '',
-        contenido: '',
-        imagen: 'Nucat.webp'
-    },
+    // {
+    //     id:25,
+    //     nombre: 'Nucan - Cachorro',
+    //     descripcion: '',
+    //     contenido: '',
+    //     imagen: 'NucanCachorro.webp'
+    // },
+    // {
+    //     id:26,
+    //     nombre: 'Nucat - Alimento para Gatos',
+    //     descripcion: '',
+    //     contenido: '',
+    //     imagen: 'Nucat.webp'
+    // },
     {
         id:36,
         nombre: 'NUPEC - Adulto',
         descripcion: '',
-        contenido: '',
+        contenido: '20 kg',
         imagen: 'NupecAdulto.jpg'
     },
     {
         id:37,
         nombre: 'NUPEC - Cachorro',
         descripcion: '',
-        contenido: '',
+        contenido: '20 kg',
         imagen: 'NupecCachorro.jpg'
     },
     {
         id:38,
         nombre: 'NUPEC Adulto - Raza Pequeña',
         descripcion: '',
-        contenido: '',
+        contenido: '8 kg',
         imagen: 'NupecAdultoRazaPequena.jpg'
     },
     {
         id:39,
         nombre: 'NUPEC Cachorro - Raza Pequeña',
         descripcion: '',
-        contenido: '',
+        contenido: '8 kg',
         imagen: 'NupecCachorroRazaPequena.jpg'
     },
     // {
