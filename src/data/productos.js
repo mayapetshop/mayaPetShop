@@ -173,7 +173,7 @@ export const PRODUCTOS = [
         nombre: 'Nucan - Adulto',
         descripcion: '',
         contenido: '25 kg',
-        imagen: 'NucanAdulto.webp'
+        imagen: 'NucanAdulto.jpg'
     },
     // {
     //     id:25,
@@ -257,7 +257,7 @@ export const PRODUCTOS = [
         nombre: 'Pedigree Cachorro',
         descripcion: '',
         contenido: '20 kg',
-        imagen: 'PedigreeCachorro.avif'
+        imagen: 'PedigreeCachorro.jpg'
     },
     // {
     //     id:31,
